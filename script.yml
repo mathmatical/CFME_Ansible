@@ -4,4 +4,4 @@
   become: true
   tasks:
   - name: Tired...Sleeping 
-    script: ~/bin/sleep.sh
+    script: /var/sleep.sh
