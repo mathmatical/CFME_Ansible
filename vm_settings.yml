@@ -1,0 +1,7 @@
+---                                                                                                                                                                                                                                          
+- name: Test Automate State Timeout                                                                                                                                                                                                          
+  hosts: 10.13.145.115                                                                                                                                                                                                                       
+  become: true                                                                                                                                                                                                                               
+  tasks:                                                                                                                                                                                                                                     
+  - name: Tired...Sleeping                                                                                                                                                                                                                   
+    script: ~/bin/sleep.sh
